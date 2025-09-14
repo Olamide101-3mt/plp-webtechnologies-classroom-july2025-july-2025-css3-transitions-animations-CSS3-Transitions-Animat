@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Week 7 Assignment - CSS & JS Animations</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Interactive CSS & JavaScript </h1>
+
+  <!-- Part 1: CSS Animation Demo -->
+  <button class="animate-btn">Hover Me</button>
+  <div class="box"></div>
+
+  <!-- Part 2 & 3: JS Triggered Animations -->
+  <button onclick="animateBox()" class="Animation">Animate Box with JS</button>
+  <button onclick="toggleModal()" class="open">Open Modal</button>
+
+  <!-- Modal -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <p>This is a modal triggered with JavaScript 🎉</p>
+      <button onclick="toggleModal()">Close</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
